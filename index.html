@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KimNet Internet</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+
+<body>
+
+<!-- BANNER -->
+<div class="banner">
+  <h1>Internet Fibra Óptica KimNet</h1>
+  <button onclick="scrollPlanos()">ASSINE JÁ</button>
+</div>
+
+<!-- BENEFÍCIOS -->
+<div class="beneficios">
+  <h2>OS BENEFÍCIOS DE TER KIMNET</h2>
+  <div class="beneficios-grid">
+    <p>🚀 Conexão ilimitada</p>
+    <p>📡 100% Fibra Óptica</p>
+    <p>🛠 Instalação Inclusa</p>
+    <p>📶 Wi-Fi Grátis</p>
+  </div>
+</div>
+
+<!-- PLANOS -->
+<div class="container">
+  <h2>Planos KimNet</h2>
+  <div class="planos" id="planos">
+    <div class="card">
+      <div class="vel">200 Mega</div>
+      <div class="preco">R$ 84,99</div>
+      <button onclick="contratar('200 Mega')">Contratar</button>
+    </div>
+    <div class="card">
+      <div class="vel">400 Mega</div>
+      <div class="preco">R$ 89,99</div>
+      <button onclick="contratar('400 Mega')">Contratar</button>
+    </div>
+    <div class="card">
+      <div class="vel">500 Mega</div>
+      <div class="preco">R$ 99,99</div>
+      <button onclick="contratar('500 Mega')">Contratar</button>
+    </div>
+    <div class="card">
+      <div class="vel">600 Mega</div>
+      <div class="preco">R$ 119,99</div>
+      <button onclick="contratar('600 Mega')">Contratar</button>
+    </div>
+    <div class="card">
+      <div class="vel">800 Mega</div>
+      <div class="preco">R$ 129,99</div>
+      <button onclick="contratar('800 Mega')">Contratar</button>
+    </div>
+  </div>
+</div>
+
+<!-- TESTE -->
+<div class="teste">
+  <h2>Teste sua velocidade</h2>
+  <button onclick="speedtest()">Abrir Speedtest</button>
+</div>
+
+<!-- AVALIAÇÕES -->
+<div class="container">
+  <h2>O que nossos clientes dizem</h2>
+  <div class="reviews">
+    <div class="review">⭐⭐⭐⭐⭐ Internet muito rápida!</div>
+    <div class="review">⭐⭐⭐⭐⭐ Melhor provedor da região.</div>
+    <div class="review">⭐⭐⭐⭐⭐ Streaming sem travar.</div>
+    <div class="review">⭐⭐⭐⭐⭐ Suporte técnico rápido.</div>
+  </div>
+</div>
+
+<!-- CONTATO -->
+<div class="container">
+  <h2>Fale com a KimNet</h2>
+  <form id="form">
+    <input type="text" name="nome" placeholder="Seu nome" required>
+    <input type="tel" name="telefone" placeholder="Seu telefone" required>
+    <input type="email" name="email" placeholder="Seu email" required>
+    <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+    <button type="submit">Enviar Mensagem</button>
+  </form>
+</div>
+
+<!-- RODAPÉ -->
+<footer>
+  <p><b>KimNet Internet Fibra Óptica</b></p>
+  <p>📞 WhatsApp: (85) 3336-1240</p>
+  <p>📧 atendimento@kimnet.com.br</p>
+  <p>© 2026 KimNet</p>
+</footer>
+
+<!-- BOTÃO WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/558533361240?text=Olá quero informações sobre a internet KimNet">
+💬
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
